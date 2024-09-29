@@ -1,0 +1,48 @@
+* {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    font-kerning: normal;
+    font-smooth: always;
+    text-rendering: optimizeLegibility;
+  }
+
+html,
+body {
+    overflow-x: hidden!important;
+    position: relative;
+    height: 100%;
+}
+
+body{
+    background-color: pink;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    -moz-font-feature-settings: "salt";
+    -webkit-font-feature-settings: "salt";
+    font-feature-settings: "salt";
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button{
+    background-color: aquamarine;
+    color:black;
+    padding: 1em;
+    border-radius: 2em;
+    width: 20%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.name{
+    font-size: 25vh;
+}
